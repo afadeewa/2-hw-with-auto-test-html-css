@@ -1,82 +1,160 @@
 * {
-    /* Свойства для сброса начальных стилей элементов */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* Свойства для сброса начальных стилей элементов */
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  color: #303030;
 }
 
-body {}
-
 header {
-    /* Стили для хедера */
+  background-color: #2965f1;
+  width: 1440px;
+  height: 70px;
+  /* Стили для хедера */
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding: 23px 0;
+  display: inline-block;
+  /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
-    /* Стили для первой секции */
+  max-width: 1440px;
+  min-height: 100vh;
+  background-color: #fafaff;
+  /* Стили для первой секции */
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 60px;
+  /* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  /* Стили для текста в первой секции */
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+  max-width: 715px;
+  display: block;
+  /* Стили для изображения в первой секции */
 }
 
-
 .about-section {
-    /* Стили для второй секции */
+  background-color: #ffffff;
+  padding: 60px 0;
+  /* Стили для второй секции */
 }
 
 select {
-    /* Стили для выпадающего списка */
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  /* Стили для выпадающего списка */
 }
 
 .section-title {
-    /* Стили для заголовков во второй секции */
+  font-weight: 700;
+  font-size: 24px;
+  /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
-    /* Стили для маркированного списка во второй секции */
+  list-style-image: url("img/marker.svg");
+  padding-left: 19px;
+  /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    /* Стили для нумерованного списка во второй секции */
+  list-style-type: decimal; /* Цифры */
+  padding-left: 19px; /* Чтобы цифры не прилипали к тексту */
+  /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-    /* Стили для подписей чекбоксов */
+  font-size: 16px;
+  cursor: pointer; /* Чтобы курсор менялся при наведении на текст */
+  /* Обычно делают display: inline-block для отступов */
+  display: inline-block;
+  margin-right: 15px; /* Отступ от чекбокса до текста */
+  /* Стили для подписей чекбоксов */
 }
 
 .text-field {
-    /* Стили для односточного поля ввода текста */
+  /* 11. Однострочное поле ввода */
+  width: 100%; /* Ширина как в макете */
+  padding: 10px 15px; /* Внутренние отступы */
+  border: 1px solid #ccc; /* Граница (цвет и толщина по макету) */
+  border-radius: 5px; /* Скругление углов */
+  /* Стили для односточного поля ввода текста */
 }
 
 .btn {
-    /* Стили для кнопки */
+  /* 12. Стили для кнопки */
+  background-color: #2965f1; /* Цвет кнопки */
+  color: #fff; /* Цвет текста */
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  border: none; /* Убрать границу */
+  border-radius: 5px; /* Скругление */
+  cursor: pointer;
+  font-size: 16px;
+  /* Стили для кнопки */
 }
 
 .line {
-    /* Стили для линии */
+  /* 13. Разделительная линия */
+  border: none; /* Убираем стандартную рамку */
+  border-top: 1px solid #e0e0e0; /* Создаем линию сверху */
+  height: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 table {
-    /* Стили для таблицы */
+  width: 100%;
+  border-collapse: collapse;
+  /* Стили для таблицы */
 }
 
-th, td {
-    /* Стили для ячеек таблицы */
+th,
+td {
+  border: 1px solid #95a1bb;
+  padding: 12px 14px;
+  text-align: left;
 }
 
 footer {
-    /* Стили для футера */
+  background-color: #a3a7ff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* Стили для футера */
 }
 
 .footer-link {
-    /* Стили для футера */
+  color: #2965f1;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  /* Стили для футера */
+}
+.footer-link:visited {
+  color: #2965f1;
 }
