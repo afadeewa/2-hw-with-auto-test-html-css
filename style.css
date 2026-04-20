@@ -116,6 +116,8 @@ select {
   width: 670px;
   height: 57px;
   padding: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
 
   /* Стили для нумерованного списка во второй секции */
 }
