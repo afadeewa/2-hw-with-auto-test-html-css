@@ -9,6 +9,11 @@ body {
   font-family: "Inter", sans-serif;
   color: #303030;
   background-color: #fafaff;
+  font-size: 14px;
+}
+
+h2 {
+  margin-bottom: 0px;
 }
 
 header {
@@ -89,7 +94,8 @@ select {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 24px;
-
+  color: #303030;
+  margin-bottom: 25px;
   /* Стили для заголовков во второй секции */
 }
 
@@ -181,19 +187,18 @@ td {
 
 footer {
   background-color: #a3a7ff;
-  padding: 26px 0;
+  padding-top: 26px;
+  padding-bottom: 26px;
   /* Стили для футера */
 }
 
 .footer-link {
-  width: 1440px;
-  height: 70px;
-  background: rgba(163, 168, 255, 0.164);
+  color: #2965f1;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
   /* Стили для футера */
 }
 .footer-link:visited {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
   color: #2965f1;
 }
